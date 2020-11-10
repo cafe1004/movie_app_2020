@@ -6,7 +6,7 @@ function Movie({ year, title, summary, poster }) {
     <div class="movie">
       <img src={poster} alt={title} title={title} />
         <div class="movie-data">
-          <h3 class="movie-title">{title}</h3>
+          <h3 class="movie-title" style={{backgroundColor: "red"}}>{title}</h3>
           <h5 class="movie-year">{year}</h5>
           <p class="movie-summary">{summary}</p>
         </div>
